@@ -1,0 +1,49 @@
+
+[+] Capturing iface=None count=10 filter=None
+
+Ethernet  f4:6a:dd:55:56:b1 -> f8:0d:a9:f7:e6:97  type 0x86dd
+TCP       54961->443 seq=2670991202 ack=2640880430 flags=ACK
+RAW       00
+
+Ethernet  f8:0d:a9:f7:e6:97 -> f4:6a:dd:55:56:b1  type 0x86dd
+UDP       443->60434 len=86
+RAW       5e c9 b9 55 b6 88 e9 2a 92 29 d6 25 4f cf 10 32 19 cd 7d dc db 87 6e 10 c7 85 e2 03 27 a5 b5 34 ...
+
+Ethernet  f8:0d:a9:f7:e6:97 -> f4:6a:dd:55:56:b1  type 0x86dd
+UDP       443->60434 len=54
+RAW       45 c7 6b c5 d7 00 b7 66 fc 18 85 ed 3e 98 05 9c a1 9b 3e e5 38 40 52 92 d1 f2 23 57 56 4f b7 36 ...
+
+Ethernet  f8:0d:a9:f7:e6:97 -> f4:6a:dd:55:56:b1  type 0x86dd
+UDP       443->60434 len=86
+RAW       48 65 b2 ff 3f a8 8c 34 61 5c 0e db c3 65 aa d3 c0 ab 8f 9c e0 30 0f 93 c2 d2 20 7d ef cc 43 12 ...
+
+Ethernet  f4:6a:dd:55:56:b1 -> f8:0d:a9:f7:e6:97  type 0x86dd
+UDP       60434->443 len=42
+RAW       5d f1 06 cd 10 39 e3 68 75 a9 de 20 0c 5c e0 17 93 1d ad 5e 2c 94 2c 19 e2 bf 3b 2e f6 54 10 c9 ...
+
+Ethernet  f4:6a:dd:55:56:b1 -> f8:0d:a9:f7:e6:97  type 0x86dd
+UDP       60434->443 len=48
+RAW       4c f1 06 cd 10 39 e3 68 75 e7 79 15 45 b1 2b c3 7e ee b0 1e 83 44 0e e4 c0 36 29 2d c0 9a 1b 57 ...
+
+Ethernet  f8:0d:a9:f7:e6:97 -> f4:6a:dd:55:56:b1  type 0x86dd
+UDP       443->60434 len=38
+RAW       4b bb 08 54 01 4f 19 e8 c1 42 31 d2 5a 83 85 91 92 2c ad b4 e1 6a d7 62 e7 95 77 95 54 75
+
+Ethernet  f8:0d:a9:f7:e6:97 -> f4:6a:dd:55:56:b1  type 0x86dd
+TCP       443->54961 seq=2640880430 ack=2670991203 flags=ACK
+
+Ethernet  f4:6a:dd:55:56:b1 -> f8:0d:a9:f7:e6:97  type 0x86dd
+UDP       60434->443 len=529
+RAW       51 f1 06 cd 10 39 e3 68 75 2f cb c1 95 4d 4e c1 29 c7 8e bf 10 c9 32 88 35 e7 35 83 3d 6b c4 8a ...
+
+Ethernet  f4:6a:dd:55:56:b1 -> f8:0d:a9:f7:e6:97  type 0x86dd
+UDP       60434->443 len=361
+RAW       46 f1 06 cd 10 39 e3 68 75 02 23 0c 4e 2e 93 7c 1f ab 1d b3 ad b6 55 51 72 91 bf cd 9e 3f 96 55 ...
+
+==================================================
+STATISTICS
+Total packets : 10
+  Ethernet: 10 (100.0%)
+  TCP    : 2 (20.0%)
+  UDP    : 8 (80.0%)
+Finished: 2025-06-26 17:31:23
